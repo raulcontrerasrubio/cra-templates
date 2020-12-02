@@ -8,7 +8,8 @@ To use this template add `--template pwa` when creating a new app:
 npx create-react-app my-app --template auth-pwa
 ```
 
-## Learn more
+## Getting Started
 
-The [Create React App documentation](https://cra.link/PWA) has more details on using this template
-to create your PWA.
+1. Search for all `APPNAME` and replace all results with you application name.
+2. Edit the `public/manifest.json` file to get it to meet your needs.
+3. Create the application icons. You can use [Real Favicon Generator](https://realfavicongenerator.net/) and [Favicon Generator](https://www.favicon-generator.org/).

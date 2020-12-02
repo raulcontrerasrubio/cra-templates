@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {useSelector} from 'react-redux';
+import Navigation from './Navigation';
 
 function App() {
+  const appState = useSelector(state => state.app);
+
   return (
-    <div className="App">
-      App
-    </div>
+    <Navigation loggedUserId={appState.loggedId} />
   );
 }
-
 export default App;
