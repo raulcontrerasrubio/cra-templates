@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-auth-pwa",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "pwa",
+    "workbox",
+    "service-worker",
+    "authentication"
+  ],
+  "description": "A PWA template for Create React App with authentication",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raulcontrerasrubio/cra-templates",
+    "directory": "packages/cra-template-auth-pwa"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
