@@ -16,6 +16,8 @@
     "packages/*"
   ],
   "scripts": {
+    "check-package-manager": "node -e \"!process.env.npm_config_user_agent.startsWith('npm/') && !console.log('---- USE NPM TO INSTALL DEPENDENCIES ----') && process.exit(1)\"",
+    "preinstall": "npm run check-package-manager --silent",
     "lerna:publish": "lerna publish",
     "changelog": "lerna-changelog",
     "format": "prettier --write \"**/*.{ts,js,json,md}\"",
